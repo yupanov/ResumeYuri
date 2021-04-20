@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button">
+        <item name="android:tint">#000000</item>
+        <item name="android:backgroundTint">#8BC34A</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="BackgroundLight">
+        <item name="android:background">#52B5AB</item>
+    </style>
+</resources>
