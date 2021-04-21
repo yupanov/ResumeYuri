@@ -66,5 +66,7 @@ public class MainFragment extends Fragment {
     public  void showLargePhoto() {
         Log.i(TAG, "showLargePhoto");
         Toast.makeText(getActivity(), "Large photo!", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getActivity(), FullscreenPhotoActivity.class);
+        startActivity(intent);
     }
 }

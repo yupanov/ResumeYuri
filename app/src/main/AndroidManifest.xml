@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResumeYuri">
         <activity
+            android:name=".FullscreenPhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_photo"
+            android:theme="@style/Theme.ResumeYuri.Fullscreen"></activity>
+        <activity
             android:name=".InfoPagerActivity"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

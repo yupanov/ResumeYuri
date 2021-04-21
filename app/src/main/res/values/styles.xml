@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Button">
         <item name="android:tint">#000000</item>
         <item name="android:backgroundTint">#8BC34A</item>
@@ -9,7 +10,17 @@
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
+
     <style name="BackgroundLight">
         <item name="android:background">#52B5AB</item>
+    </style>
+
+    <style name="Widget.Theme.ResumeYuri.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.ResumeYuri.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
 </resources>

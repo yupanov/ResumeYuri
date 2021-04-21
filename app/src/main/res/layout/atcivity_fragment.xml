@@ -23,7 +23,9 @@
             android:src="@drawable/yuri_s_tp"
             app:layout_constraintStart_toStartOf="@+id/linearLayout"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@tools:sample/avatars"
+            android:elevation="2dp"
+            android:stateListAnimator="@animator/elevation_animator"/>
 
         <TextView
             android:id="@+id/tv_developer"
