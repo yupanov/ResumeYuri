@@ -19,6 +19,7 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="large_photo">Large personal photo</string>
+    <string name="hobby_button">Hobby button</string>
 
 
 </resources>
