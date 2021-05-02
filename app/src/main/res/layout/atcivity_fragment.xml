@@ -225,7 +225,7 @@
                         android:id="@+id/bt_more"
                         style="@style/Button"
                         android:contentDescription="@string/more_button_label"
-                        android:src="@drawable/ic_more" />
+                        android:src="@drawable/ic_experience" />
 
                     <TextView
                         android:id="@+id/tv_more"

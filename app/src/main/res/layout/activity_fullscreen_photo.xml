@@ -7,9 +7,10 @@
     tools:context=".FullscreenPhotoActivity">
 
     <ImageView
+        android:id="@+id/iv_large_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/large_photo"
-        android:src="@drawable/yuri"/>
+        android:src="@drawable/yuri" />
 
 </FrameLayout>
